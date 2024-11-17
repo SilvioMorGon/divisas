@@ -51,7 +51,7 @@ with st.expander("Paso 4: Resultado"):
 
 with st.expander("Paso 5: WhatsApp"):
     st.write(f"Continuar proceso por WhatsApp")
-    telefono = "+5491131638720"
+    telefono = "+5491158144440"
     mensaje = f"Hola, quiero convertir {monto} USD usando {metodo} en la modalidad {tipo_cambio}."
     url_whatsapp = f"https://wa.me/{telefono}?text={mensaje.replace(' ', '%20')}"
 
